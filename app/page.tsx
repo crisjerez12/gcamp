@@ -87,6 +87,17 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+        <section className='mt-6'>
+          <h2 className='text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl'>
+            See Our Location
+          </h2>
+          <iframe
+            src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1373.9337789869849!2d124.62367744066175!3d5.988728260898501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwNTknMTkuOSJOIDEyNMKwMzcnMjMuNyJF!5e1!3m2!1sen!2sph!4v1723719043428!5m2!1sen!2sph'
+            width='100%'
+            height='450'
+            loading='lazy'
+          ></iframe>
+        </section>
         <section className='py-12 md:py-16 lg:py-20'>
           <div className='container px-4 md:px-6'>
             <div className='flex flex-col items-center text-center space-y-6'>
